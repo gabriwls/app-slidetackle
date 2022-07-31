@@ -11,8 +11,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class StRepository {
 
     //region Constantes
-    private static final String REMOTE_API_URL = "https://digitalinnovationone.github.io/soccer-news-api/";
-    private static final String LOCAL_DB_NAME = "soccer-news";
+    private static final String REMOTE_API_URL = "https://gabriwls.github.io/api-slidetackle/";
+    private static final String LOCAL_DB_NAME = "slidetackle";
     //endregion
 
     //region Atributos: encapsulam o acesso a nossa API (Retrofit) e banco de dados local (Room).
