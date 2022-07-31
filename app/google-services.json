@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "911244859728",
+    "project_id": "app-slidetackle",
+    "storage_bucket": "app-slidetackle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911244859728:android:af6cb80bfb787c1c683455",
+        "android_client_info": {
+          "package_name": "me.dio.soccernews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911244859728-0honqo0vgqdkkkk1m6is45adn3i13t8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCdzdP5b6q10A6Q30NJpH2L_jMgWZjgs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911244859728-0honqo0vgqdkkkk1m6is45adn3i13t8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
