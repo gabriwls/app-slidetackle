@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel;
 
 import java.util.List;
 
-import me.dio.soccernews.data.SoccerNewsRepository;
+import me.dio.soccernews.data.StRepository;
 import me.dio.soccernews.domain.News;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -30,7 +30,7 @@ public class NewsViewModel extends ViewModel {
 
     public void findNews() {
         state.setValue(State.DOING);
-        SoccerNewsRepository.getInstance().getRemoteApi().getNews().enqueue(new Callback<List<News>>() {
+        StRepository.getInstance().getRemoteApi().getNews().enqueue(new Callback<List<News>>() {
             @Override
             public void onResponse(@NonNull Call<List<News>> call, @NonNull Response<List<News>> response) {
                 if (response.isSuccessful()) {
@@ -51,7 +51,7 @@ public class NewsViewModel extends ViewModel {
     }
 
     public void saveNews(News news) {
-        AsyncTask.execute(() -> SoccerNewsRepository.getInstance().getLocalDb().newsDao().save(news));
+        AsyncTask.execute(() -> StRepository.getInstance().getLocalDb().newsDao().save(news));
     }
 
     public LiveData<List<News>> getNews() {
