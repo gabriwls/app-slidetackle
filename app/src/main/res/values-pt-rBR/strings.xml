@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slidetackle</string>
+
+    <string name="title_news">Notícias</string>
+    <string name="title_favorites">Favoritos</string>
+
+    <string name="txt_read_more">Leia mais</string>
+
+    <string name="cd_favorite_icon">Ícone de compartilhamento</string>
+    <string name="cd_share_icon">Ícone de favoritar</string>
+    <string name="cd_news_image">Imagem da notícia</string>
+
+
+    <string name="error_network">Erro de conexão</string>
+</resources>
