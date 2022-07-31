@@ -15,7 +15,7 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/news_image_height"
             android:contentDescription="@string/cd_news_image"
-            android:src="@color/teal_200"
+            android:src="@color/secondary_200"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -28,7 +28,7 @@
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ivThumbnail"
@@ -72,7 +72,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/btOpenLink"
             app:layout_constraintEnd_toStartOf="@+id/ivShare"
             app:layout_constraintTop_toTopOf="@+id/btOpenLink"
-            app:srcCompat="@drawable/ic_favorite" />
+            app:srcCompat="@drawable/ic_favorites" />
         <!-- Referência: Incluir o Efeito de Ripple (https://stackoverflow.com/a/61012286/3072570) -->
 
         <ImageView
