@@ -1,10 +1,23 @@
-# Soccer News App
+# Slidetackle  
+(*Obs.: esse aplicativo foi desenvolvido como um desafio de projeto da [DIO](https://www.dio.me/) para o Bootcamp "Santander Mobile Developer".*)  
 
-App Nativo Android de Notícias Sobre Futebol Feminino (Mês da Mulher). Este repositório foi organizado em algumas branches que representam as implementações realizadas durante os seguintes conteúdos/vídeos:
+O nome do app refere-se a uma manobra de futebol chamada “*slide tackle*” ou “*sliding tackle*”, conhecida em português como “carrinho”.  
 
-1. [Android Jetpack e Material Design: Criando Apps Nativos Poderosos](https://docs.google.com/presentation/d/1ECgeecAT5A1Mh0Mh-mbs4R2_wb4AHJLE/edit?usp=sharing&ouid=107980611913120181649&rtpof=true&sd=true) (Slides)
-    - [release/android-jetpack-material-design-criando-apps-nativos-poderosos](https://github.com/digitalinnovationone/soccer-news-app/tree/release/android-jetpack-material-design-criando-apps-nativos-poderosos)
-1. [Abstraindo o Domínio de Apps Android Nativos com Java](https://docs.google.com/presentation/d/1-SY1Ryx0GvPAmmiUA1w0ewCtCiJxBwQg/edit?usp=sharing&ouid=107980611913120181649&rtpof=true&sd=true) (Slides)
-    - [release/abstraindo-dominio-de-apps-android-nativos-com-java](https://github.com/digitalinnovationone/soccer-news-app/tree/release/abstraindo-dominio-de-apps-android-nativos-com-java)
-1. [Consumo de APIs e Persistência de Dados Locais em Apps Android](https://docs.google.com/presentation/d/1FrsBIZ5v7scAZwzUfmQK7wPLl-NRU-LA/edit?usp=sharing&ouid=107980611913120181649&rtpof=true&sd=true) (Slides)
-    - [release/consumo-de-apis-e-persistencia-de-dados-locais](https://github.com/digitalinnovationone/soccer-news-app/tree/release/consumo-de-apis-e-persistencia-de-dados-locais)
+## **Funcionalidades**:
+Além da leitura de notícias nacionais e internacionais sobre futebol feminino, permite compartilhar e favoritar notícias.
+
+## **Implementações e ferramentas utilizadas**: 
+- [Analytics](https://firebase.google.com/products/analytics), [Crashlytics](https://firebase.google.com/products/crashlytics), [Gson](https://github.com/square/retrofit), [Picasso](https://github.com/square/picasso), [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview), [Retrofit](https://github.com/square/retrofit), [Room](https://developer.android.com/training/data-storage/room), [SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout) e [ViewBinding](https://developer.android.com/topic/libraries/view-binding).
+- **[Simulação de API utilizada no projeto](https://github.com/gabriwls/api-slidetackle)**.  
+
+## **Design da interface**:
+- **Cores**:
+   - Apesar do foco no futebol *feminino*, decidi usar o verde como a cor primária do aplicativo, como forma de remeter aos gramados, em vez do já batido rosa.
+
+- **Temas**:
+  - No tema escuro, optei por não atribuir cor à status bar, como forma de tornar a visualização da interface mais leve aos olhos, que é o que geralmente procuram aqueles que usam esse tipo de tema.
+  
+- **Ícones**:
+  - **Notícias**: nos jogos, os apitos são uma forma de chamar a atenção. Similarmente, as notícias também são algo a que deve estar atento. Portanto, foi escolhido um apito.  
+  - **Favoritos**: apesar de, atualmente, muitos aplicativos utilizarem corações para simbolizar favoritos, estrelas parecem ter uma ligação maior com o futebol (as estrelas na camisa da Seleção Brasileira, por exemplo). Assim, foi escolhida uma estrela.
+  
