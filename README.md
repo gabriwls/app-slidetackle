@@ -1,5 +1,5 @@
-# Slidetackle  
-(*Obs.: esse aplicativo foi desenvolvido como um desafio de projeto da [DIO](https://www.dio.me/) para o Bootcamp "Santander Mobile Developer".*)  
+# Slidetackle <img align="right" width="200" height="200" src="screenshots/st_icon.png"> 
+(*Obs.: esse aplicativo foi desenvolvido como um desafio de projeto da [DIO](https://www.dio.me/) para o bootcamp "Santander Mobile Developer".*)  
 
 O nome do app refere-se a uma manobra de futebol chamada “*slide tackle*” ou “*sliding tackle*”, conhecida em português como “carrinho”.  
 
@@ -7,7 +7,15 @@ O nome do app refere-se a uma manobra de futebol chamada “*slide tackle*” ou
 Além da leitura de notícias nacionais e internacionais sobre futebol feminino, permite compartilhar e favoritar notícias.
 
 ## **Implementações e ferramentas utilizadas** 
-- [Analytics](https://firebase.google.com/products/analytics), [Crashlytics](https://firebase.google.com/products/crashlytics), [Gson](https://github.com/square/retrofit), [Picasso](https://github.com/square/picasso), [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview), [Retrofit](https://github.com/square/retrofit), [Room](https://developer.android.com/training/data-storage/room), [SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout) e [ViewBinding](https://developer.android.com/topic/libraries/view-binding).
+- [Analytics](https://firebase.google.com/products/analytics), 
+[Crashlytics](https://firebase.google.com/products/crashlytics), 
+[Gson](https://github.com/square/retrofit), 
+[Picasso](https://github.com/square/picasso), 
+[RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview), 
+[Retrofit](https://github.com/square/retrofit), 
+[Room](https://developer.android.com/training/data-storage/room), 
+[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout) 
+e [ViewBinding](https://developer.android.com/topic/libraries/view-binding).
 - [Simulação de API utilizada no projeto](https://github.com/gabriwls/api-slidetackle).  
 
 ## **Design da interface**
