@@ -9,10 +9,10 @@ Além da leitura de notícias nacionais e internacionais sobre futebol feminino,
 ## **Implementações e ferramentas utilizadas** 
 - [Analytics](https://firebase.google.com/products/analytics), 
 [Crashlytics](https://firebase.google.com/products/crashlytics), 
-[Gson](https://github.com/square/retrofit), 
-[Picasso](https://github.com/square/picasso), 
+[Gson](https://square.github.io/retrofit/), 
+[Picasso](https://square.github.io/picasso/), 
 [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview), 
-[Retrofit](https://github.com/square/retrofit), 
+[Retrofit](https://square.github.io/retrofit/), 
 [Room](https://developer.android.com/training/data-storage/room), 
 [SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout) 
 e [ViewBinding](https://developer.android.com/topic/libraries/view-binding).
@@ -31,13 +31,13 @@ e [ViewBinding](https://developer.android.com/topic/libraries/view-binding).
   
 ### Capturas de tela
 - **Tema claro**:  
-<p align="left">
+<p align="center">
   <img src="screenshots/light_news.png" width="120" />
   <img src="screenshots/light_favorites.png" width="120" /> 
-</p>
+</p>  
 
 - **Tema escuro**:
-<p align="left">
+<p align="center">
   <img src="screenshots/dark_news.png" width="120" />
   <img src="screenshots/dark_favorites.png" width="120" /> 
 </p>
